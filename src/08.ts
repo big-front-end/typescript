@@ -1,5 +1,5 @@
 // 构造器重载
-// 计算正方形的迈纳基
+// 计算正方形的面积
 // 计算创建正方形对象，可以给构造器传递宽和高
 // 也可以给构造器传递一个包含了宽和高的形状参数和对象，这样需要用构造器重载
 
@@ -10,8 +10,8 @@ type TypeChartParam = {
 }
 
 class Square {
-    width!: number
-    height!: number
+    width: number
+    height: number
 
     // 构造器重载
     constructor(width: number, height: number) // 重载签名
